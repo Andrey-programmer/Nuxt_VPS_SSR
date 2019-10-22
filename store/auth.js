@@ -64,10 +64,14 @@ export const actions = {
         //Если находимся на клиенте то используем document.cookie
         // иначе достаем с сервера this.app.context.req.headers.cookie
         // console.log(process.browser)
-        const cookieStr = process.browser
-            ? document.cookie 
-            : this.app.context.req.headers.cookie
+        // console.log('connext.req = ')
+        // console.log(this.app.context.$axios.default.headers)
+
+        // const cookieStr = process.browser
+        //     ? document.cookie 
+        //     : this.app.context.req.headers.cookie
         // console.log(cookieStr)
+        const cookieStr = '' 
 
         const cookies = Cookie.parse(cookieStr || '') || {}
         const token = cookies['jwt-token']

@@ -1,5 +1,5 @@
 {
-  "name": "SSR_BLOG",
+  "name": "ssr-blog",
   "version": "1.0.0",
   "description": "Nuxt SSR blog ",
   "author": "Andrey-programmer",
@@ -15,22 +15,22 @@
     "node": "10.x"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/pwa": "^3.0.0-beta.16",
+    "@nuxtjs/axios": "^5.6.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.19",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.0",
     "chart.js": "^2.8.0",
     "cookie": "^0.4.0",
-    "cross-env": "^5.2.0",
-    "element-ui": "^2.7.2",
-    "express": "^4.16.4",
-    "js-cookie": "^2.2.0",
+    "cross-env": "^5.2.1",
+    "element-ui": "^2.12.0",
+    "express": "^4.17.1",
+    "js-cookie": "^2.2.1",
     "jsonwebtoken": "^8.5.1",
     "jwt-decode": "^2.2.0",
     "moment": "^2.24.0",
-    "mongoose": "^5.5.9",
-    "multer": "^1.4.1",
-    "nuxt": "^2.4.0",
+    "mongoose": "^5.7.4",
+    "multer": "^1.4.2",
+    "nuxt": "^2.10.0",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "vue-chartjs": "^3.4.2",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "node-sass": "^4.12.0",
-    "nodemon": "^1.18.9",
-    "sass-loader": "^7.1.0"
+    "nodemon": "^1.19.3",
+    "sass-loader": "^7.3.1"
   }
 }
