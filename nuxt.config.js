@@ -41,7 +41,7 @@ module.exports = {
   ],
 
   axios: {
-    baseURL: process.env.BASE_URL || 'http://localhost:3000'
+    baseURL: 'http://spa-blog.ru:80'
   },
 
   env: {

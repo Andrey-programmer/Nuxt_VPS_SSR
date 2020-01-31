@@ -10,8 +10,9 @@ async function start() {
   // Init Nuxt.js
   const nuxt = new Nuxt(config)
 
-  const { host, port } = nuxt.options.server
-
+//  const { host, port } = nuxt.options.server
+const host = '37.228.116.14'
+const port = 80
   // Build only in dev mode
   if (config.dev) {
     const builder = new Builder(nuxt)
